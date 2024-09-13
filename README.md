@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://www.bret.bar/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Bret.bar 
-  <img src="readme-images/FED bretfoto.png" width="375px" alt="BRET homepage">
+  <img src="readme-images/fedbretfoto.png." width="375px" alt="BRET homepage">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Bret.bar/group-reservations 
-  <img src="readme-images/FED bretfoto2.png" width="375px" alt="BRET groupreservartions">
+  <img src="readme-images/fedbretfoto2.png." width="375px" alt="BRET groupreservartions">
  
 </details>
 
@@ -57,6 +57,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  -de screenreader leest een inlogbutton die niet te zien is (slecht van de website zelf)
+  -er word goed genavigeerd door de navigatie bovenaan de site
+  -helemaal bovenaan de site zijn blijkbaar wat images waar die soms vast blijft zitten
+  -bij de group reservation site is het niet altijd duidelijk op welke textbalk je zit wat uiteraard onhandig is
+  -de screenreader van google werkt wel heel erg goed, daar word alles goed van links naar recht van boven naar beneden gelezen
 
 </details>
 
