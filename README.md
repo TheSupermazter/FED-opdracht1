@@ -61,8 +61,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   -er word goed genavigeerd door de navigatie bovenaan de site
   -helemaal bovenaan de site zijn blijkbaar wat images waar die soms vast blijft zitten
   -bij de group reservation site is het niet altijd duidelijk op welke textbalk je zit wat uiteraard onhandig is
-  -de screenreader van google werkt wel heel erg goed, daar word alles goed van links naar recht van boven naar beneden gelezen
-
+  -de screenreader bij google werkt wel heel erg goed, daar word alles goed van links naar recht van boven naar beneden gelezen
 </details>
 
 
@@ -73,7 +72,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/fedbreakdownschets.jpeg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -93,7 +92,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  vragen:
+  -heeft u liever dat ik in mijn homepage buttons of a:href gebruik?
+  -heeft u tips voor het specifiek stijlen van dingen zonder classes te gebruiken (divjes?)
+  -in mijn footer zitten best veel verschillende lettertypes en groottes, hoe kan ik dit het best aanpakken?
+
 
 
   ### Agenda voor meeting
@@ -234,8 +237,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Klasgenoten
+  2. Chatgpt (voor kleine dingen alleen)
+  3. Studentassistente
 
 </details>
