@@ -30,8 +30,19 @@
 /* JOUW STYLING */
 /****************/
 
-/* Header */
 
+/*van studentassistente gekregen*/
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+/* Header */
 header {
 	background-color:black;
 	display: flex;
@@ -59,12 +70,11 @@ section:nth-of-type(1) article {
 	position: absolute;
 	width: 100%;
 	top: 30%;
-	z-index: 10;
 	display: flex;
 	flex-direction: column;
 }
 
-section:nth-of-type(1) article h1{
+section:nth-of-type(1) article h2{
 	color:rgb(197, 5, 5);
 	text-align: center;
 	font-size: 2em;
@@ -74,10 +84,13 @@ section:nth-of-type(1) article h1{
 section:nth-of-type(1) article p{
 	color:#ffffff;
 	text-align: center;
-	margin-bottom: 2.8em;
+	font-size: 1.2em;
+	margin-bottom: 2.5em;
+	margin-left: 3em;
+	margin-right: 3em;
 }
 
-section:nth-of-type(1) article button{
+section:nth-of-type(1) article a{
 	background-color: green;
 	color: #ffffff;
 	border-radius: 2em;
@@ -87,6 +100,8 @@ section:nth-of-type(1) article button{
 	width: 40%;
 	margin: 0 auto;
 	margin-bottom: 3em;
+	text-align: center;
+	text-decoration: none;
 }
 
 section:nth-of-type(1) img {
@@ -98,154 +113,81 @@ section:nth-of-type(1) img {
 
 /* Section 2 */
 
-section:nth-of-type(2) {
+.club {
 	width: 100%;
+	position: absolute;
 }
 
-section:nth-of-type(2) article 
-	
-
-
-section:nth-of-type(2) article video {
+.club article {
+	position: absolute;
 	width: 100%;
+	top: 30%;
+	z-index: 10;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-
-
-
-/* 
-h1 {
-	color:rgb(197, 5, 5);
-	position: absolute;
-	top: 7%;
-	left: 22%;
+.club p {
 	text-align: center;
-
-}
-
-
-main section:nth-of-type(1) img {
-	width: 100vw;
-	display: block;
-	margin-top: 140px;
-}
-
-main section:nth-of-type(1) p {
-	color:#ffffff;
 	position: absolute;
-	top: 18%;
-	left: 10%;
-	right: 10%;
+	color: white;
+	margin-top: 13em;
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+.club h2 {
 	text-align: center;
-	font-size: 1em;
+	position: absolute;	
+	color:rgb(183, 25, 25);
+	font-size: 4em;
+	margin-top: 1em;
 }
 
-main section:nth-of-type(1) button {
-	position: absolute;
-	top: 35%;
-	left: 25%;
-	padding: 13px 45px;
-	background-color: rgb(26, 152, 26);
-	color:white;
-	border: none;
+.club a {
+	background-color: rgb(127, 127, 127);
+	color: #ffffff;
 	border-radius: 2em;
+	border: none;	
 	font-size: 1em;
+	padding: 1em 2em 1em 2em;
+	width: 50%;
+	text-align: center;
+	text-decoration: none;
 }
 
-main section:nth-of-type(1) button:nth-of-type(2) {
-	margin-top: 4em;
-	padding: 13px 73px;
+.club a:nth-of-type(1) {
+	position: absolute;
+	margin-top: 20em;
 }
 
-video {
-	width: 100%;
-	height: 150vw;
-	display: block;
-	margin: 0;
-	padding: 0;
+.club a:nth-of-type(2) {
+	position: absolute;
+	margin-top: 25em;
+}
+
+.club a:nth-of-type(3) {
+	position: absolute;
+	margin-top: 30em;
+}
+
+.club a:nth-of-type(4) {
+	position: absolute;
+	margin-top: 35em;
+}
+
+.club video {
+	width: 120%;
+	height: 90vh; 
 	object-fit: cover;
 }
 
-h2 {
-	position: absolute;
-	top: 57%;
-	left: 16%;
-	font-size: 3em;
-	color: rgb(182, 7, 7);
-}
 
-article p {
-	color: white;
-	position: absolute;
-	top: 65%;
-	left: 10%;
-	right: 10%;
-	text-align: center;
-	font-size: 0.8em;
-}
-
-buttons nightclub
-article button {
-	background-color: grey;
-	color: white;
-	border: none;
-	border-radius: 2em;
-	font-size: 0.9em;
-  } */
-  
- /* 
-  article button:nth-of-type(1) {
-	position: absolute;
-	top: 75%; 
-	left: 30%;
-	padding: 13px 50px;
-  }
-  
-  article button:nth-of-type(2) {
-	position: absolute;
-	top: 80%; 
-	left: 30%;
-	padding: 13px 41px;
-  }
-  
-  article button:nth-of-type(3) {
-	position: absolute;
-	top: 85%; 
-	left: 30%;
-	padding: 13px 20px;
-  }
-  
-  article button:nth-of-type(4) {
-	position: absolute;
-	top: 90%; 
-	left: 30%;
-	padding: 13px 34px;
-  }
-  /*buttons nightclub*/
-  
-/* main section:nth-of-type(2) {
-	position:relative;
-}
-
-main section:nth-of-type(2) article {
-	position: absolute;
-	top: 35em;
-}
-
-
-
-  footer {
+footer {
 	background-color: black;
-	width: 100vw;
-
-  }
-
-  footer p {
-	color: white;
-	display: flex;
-	justify-content: center;
-	flex:1;
-  } */
-
-
+	/* margin top moet nog gefixt worden */
+	margin-top: 44em;
+	color: #ffffff;
+}
 

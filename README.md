@@ -93,9 +93,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   vragen:
-  -heeft u liever dat ik in mijn homepage buttons of a:href gebruik?
+  -heeft u liever dat ik in mijn homepage buttons of a:href gebruik? -A:href gebruiken!, -kan een # gebruiken om linkje naar eigen page te maken-
   -heeft u tips voor het specifiek stijlen van dingen zonder classes te gebruiken (divjes?)
-  -in mijn footer zitten best veel verschillende lettertypes en groottes, hoe kan ik dit het best aanpakken?
+  -in mijn footer zitten best veel verschillende lettertypes en groottes, hoe kan ik dit het best aanpakken? -span gebruiken, met wellicht class, divjes kan ook-
+  -mag bij veel sections opzich wel een class gebruiken voor een section-
+  -geen br tag gebruiken, is te fixen met margins-
+  -h1 toevoegen, niet zichtbaar maken maar wel leesbaar voor screenreader-
 
 
 
